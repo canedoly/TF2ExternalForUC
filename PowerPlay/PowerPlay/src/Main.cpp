@@ -42,7 +42,7 @@ void Aimbot()
 		
 		Vec3 vPos = [&]()
 		{
-			switch (pLocal->m_iClass())
+			switch (pPlayer->m_iClass())
 			{
 				case CLASS_SCOUT:
 				case CLASS_SOLDIER:
